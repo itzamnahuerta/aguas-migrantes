@@ -8,15 +8,12 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import SectionOne from './SectionOne';
 import SectionTwo from './SectionTwo';
 
-// styles
-import '../styles/NavBar.scss';
-
 const ParallaxBody = () => {
   return(
     <ParallaxProvider>
       <SectionOne/>
       <SectionTwo/>
-  <ParallaxProvider/>
+  </ParallaxProvider>
   )
 };
 
