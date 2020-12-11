@@ -1,0 +1,45 @@
+.navbar-container {
+  display:flex;
+  height: 4em;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  .link-container {
+    flex: 1;
+    text-align: center;
+  }
+  .right-end {
+    margin-right: 20px;
+    flex-grow: 3;
+    display:flex;
+    justify-content: flex-end;
+  }
+  .link-item {
+    text-decoration: none;
+    color: black;
+    font-size: 12pt;
+    text-transform: uppercase;
+  }
+  .left {
+    position: relative;
+  }
+  .left:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    background-color: purple;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  .left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+}

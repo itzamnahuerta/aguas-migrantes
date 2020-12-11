@@ -1,0 +1,22 @@
+#team {
+  // border: 2px solid red;
+  margin: 1em 3em 0 3em;
+  display:grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+  grid-template-rows: repeat(3, 1fr);
+  .team-member {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    svg{
+
+    }
+    .svg-container {
+      height: 365px;
+      width: auto;
+      // border: 1px solid red;
+      padding: 1em;
+    }
+  }
+}

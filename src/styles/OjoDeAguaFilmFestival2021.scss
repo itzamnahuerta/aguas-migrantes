@@ -1,0 +1,99 @@
+.ojo-de-agua-screen{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+
+  //  - - - - - - BANNER - - - - - -
+
+  .ojo-de-agua-banner {
+    // border: 3px solid black;
+    // background-color: greenyellow;
+    margin-top: 8em;
+    height: 100% !important;
+    display:flex;
+    
+    align-items: stretch;
+    flex:1; 
+    .left-secttion {
+      vertical-align: middle; 
+    }
+    .gif {
+      max-width:100%;
+    }
+    .right-sectiton > h1 {
+      text-transform: uppercase;
+      margin-top: 20%;
+      font-size: 4em;
+    }
+    .f-item {
+      // border: 2px solid red;
+      flex-basis: 100%;
+    }
+  }
+
+  //  - - - - - - SECTION 1  - - - - - -
+
+  .section-1-grid {
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 1px solid black;
+    background-color: salmon;
+    position: relative;
+
+    .grid-child {
+      border: 1px solid fuchsia;
+    }
+    .col1-row1-container {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      // border: 4px solid purple;
+    }
+    .shape-1-container  {
+      position: relative;
+      width: 100%;
+      vertical-align: middle; 
+      overflow: hidden; 
+    }
+    .text-overlay-section-1-a {
+      position: absolute;
+      // border: 2px solid green;
+      top: 0;
+      margin: 1% 0 0 4% ;
+    }  
+    .col2-3-row1-container {
+      // border: 4px solid red;
+      grid-column: 2/4;
+      grid-row: 1/2;
+    }
+    .shape-2-container {
+      position: relative;
+      top: -2%;
+      // right: -10%;
+    }
+    .text-overlay-section-1-b {
+      position: absolute;
+      // border: 2px solid green;
+      top: 3%;
+      left: 45%;
+      width: 40%;
+      height: 35%;
+      margin: 1% 0 0 4% ;
+      overflow: scroll;
+      >  p {
+        color: white;
+        font-size: 1.5em;
+      }
+    }  
+  }
+
+  //   - - - - - - SECTION 2  - - - - - -
+  .section-2-container {
+    background-color: darkcyan;
+    width: 100%;
+    height: 600px;
+  }
+}
