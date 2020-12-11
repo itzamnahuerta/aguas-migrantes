@@ -1,9 +1,5 @@
 import React from 'react';
-import SectionOne from './SectionOne';
-import SectionTwo from './SectionTwo';
-
-// packages
-import { ParallaxProvider } from 'react-scroll-parallax';
+import ParallaxBody from './ParallaxBody';
 
 // styles
 import '../../styles/OjoDeAguaFilmFestival2021.scss';
@@ -25,9 +21,8 @@ const OjoDeAguaFilmFestival2020Screen = () => {
             <h1> Ojos de Agua Film Festival </h1>
           </div>
         </div> 
+        <ParallaxBody/>
 
-        <SectionOne/>
-        <SectionTwo/>
       </div>
   )
 };
