@@ -1,8 +1,9 @@
 import React from 'react';
+import { Parallax } from 'react-scroll-parallax';
 
-
-const NavBar = () => {
+const SectionOne = () => {
   return(
+  <Parallax>
     <div className="section-1-grid">
     <div className="col1-row1-container grid-child">
       <div className="shape-1-container">
@@ -661,7 +662,8 @@ const NavBar = () => {
         </div> 
     </div>
   </div>  
+  </Parallax>
   )
 };
 
-export default NavBar;
+export default SectionOne;
