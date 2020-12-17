@@ -1,10 +1,8 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
 
 const SectionOne = () => {
   return(
-  <Parallax>
-    <div className="section-1-grid">
+  <div className="section-1-grid">
     <div className="col1-row1-container grid-child">
       <div className="shape-1-container">
         <svg
@@ -661,8 +659,8 @@ const SectionOne = () => {
           </p> 
         </div> 
     </div>
+    
   </div>  
-  </Parallax>
   )
 };
 

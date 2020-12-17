@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+@font-face {
+  font-family: 'Neue Machina';
+  src:  url('../assets//fonts/neuemachina.otf') format('otf');
+  src:  url('../assets//fonts/neuemachina.otf') format('ttf');
+}
+
 .ojo-de-agua-screen{
   position: absolute;
   top: 0;
@@ -10,8 +18,8 @@
   .ojo-de-agua-banner {
     // border: 3px solid black;
     // background-color: greenyellow;
-    margin-top: 8em;
-    height: 100% !important;
+    margin-top: 9em;
+    height: 70vh !important;
     display:flex;
     
     align-items: stretch;
@@ -25,7 +33,11 @@
     .right-sectiton > h1 {
       text-transform: uppercase;
       margin-top: 20%;
-      font-size: 4em;
+      font-size: 6em;
+      font-family: 'Neue Machina';
+      // font-family: 'Archivo Black', sans-serif;
+      color: #6F1FFF;
+      
     }
     .f-item {
       // border: 2px solid red;
@@ -36,34 +48,39 @@
   //  - - - - - - SECTION 1  - - - - - -
 
   .section-1-grid {
-    margin-top: 8%;
+    // margin-top: 8%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    border: 1px solid black;
-    background-color: salmon;
+    grid-template-rows: repeat(1, 1fr);
+    // border: 1px solid black;
+    // background-color: salmon;
     position: relative;
 
     .grid-child {
-      border: 1px solid fuchsia;
+      // border: 1px solid fuchsia;
     }
     .col1-row1-container {
       grid-column: 1/2;
       grid-row: 1/2;
-      // border: 4px solid purple;
     }
     .shape-1-container  {
       position: relative;
       width: 100%;
       vertical-align: middle; 
       overflow: hidden; 
+      margin-left: 5%;
     }
     .text-overlay-section-1-a {
       position: absolute;
+      font-family: 'Archivo Black', sans-serif;
       // border: 2px solid green;
       top: 0;
-      margin: 1% 0 0 4% ;
+      margin: 3% 0 0 8% ;
     }  
+    .text-overlay-section-1-a > h1 {
+      font-size: 3rem;
+      color: white;
+    }
     .col2-3-row1-container {
       // border: 4px solid red;
       grid-column: 2/4;
@@ -80,20 +97,150 @@
       top: 3%;
       left: 45%;
       width: 40%;
-      height: 35%;
+      min-height: 60%;
       margin: 1% 0 0 4% ;
       overflow: scroll;
       >  p {
         color: white;
         font-size: 1.5em;
       }
-    }  
+    } 
+    
+    .col1-row2-container {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      .shape-3-container {
+        position: absolute;
+        top: -2%;
+        // right: -10%;
+      }
+    }
   }
 
   //   - - - - - - SECTION 2  - - - - - -
   .section-2-container {
+    border: 2px solid red;
     background-color: darkcyan;
     width: 100%;
-    height: 600px;
+    height: 1000px;
   }
 }
+
+  //   - - - - - - SECTION 3  - - - - - -
+
+  .section-3-container {
+    position: relative;
+    min-height: 100vh !important;
+    width: 100%;
+
+    display:flex;
+    justify-content: center;
+    flex: 1;
+    flex-basis: inherit;
+    // justify-content: center;
+    // align-items: center;
+    .schedule-container {
+      // text-align: center;
+      // width: 60%;
+      // background-color: violet;
+    }
+    .shape-3-container {
+      width: 140px;
+      border: 3px solid red;
+    }
+    .s-3-header {
+      color: #D75B40;
+      font-family: 'Archivo Black', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 3em;
+      margin: 2em 0  3em 0;
+    }
+    .nav {
+      border: none;
+    }
+    .nav-tabs {
+      display:flex;
+      justify-content: center;
+      // border: 2px solid white;
+
+    }
+    .nav-tabs > a:hover{
+      border: none;
+    }
+    .nav-tabs > .active > a,
+    .nav-tabs > .active > a:hover,
+    .nav-tabs > a:focus {
+      background-color: none;
+      border-color:none;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+      color: none;
+      /* background-color: #fff; */
+      border-color:white;
+    
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+      color: none;
+      background-color: transparent;
+      /* border-color: #dee2e6 #dee2e6 #fff; */
+    }
+    a {
+      font-family: 'Archivo Black', sans-serif;
+      color: #6F1FFF;
+      text-transform: uppercase;
+      text-decoration: none;
+      background-color: transparent;
+    }
+    .tab-content {
+      width: 100vw !important;
+      
+    }
+    .film-schedule-container {
+      // border: 10px solid white;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      .film-container {
+        margin: 2em 0  3em 0;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        
+        flex: 1;
+        flex-basis: 100%; 
+        height: 20%;
+        width: 60%;
+        padding-bottom: 3em;
+        border-bottom: 4px solid #30C600;
+
+        .item {
+          flex-basis: 100%; 
+        }
+        .film-content {
+          p{
+            font-size: auto;
+          }
+        }
+        .film-img {
+          // flex-grow: 1;
+          position: relative;
+          width: 100%;
+          vertical-align: middle; 
+          overflow: hidden; 
+          margin-left: 5%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    // #controlled-tab {
+    //   width: 500px;
+    //   border: 6px solid red;
+    // }
+
+  }
