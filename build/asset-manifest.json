@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58f807d1.chunk.css",
+    "main.js": "/static/js/main.2878ccae.chunk.js",
+    "main.js.map": "/static/js/main.2878ccae.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fc58d886.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fc58d886.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.3f14d20d.chunk.js": "/static/js/2.3f14d20d.chunk.js",
+    "static/js/2.3f14d20d.chunk.js.map": "/static/js/2.3f14d20d.chunk.js.map",
+    "static/js/3.a7c0b19e.chunk.js": "/static/js/3.a7c0b19e.chunk.js",
+    "static/js/3.a7c0b19e.chunk.js.map": "/static/js/3.a7c0b19e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.58f807d1.chunk.css.map": "/static/css/main.58f807d1.chunk.css.map",
+    "static/js/2.3f14d20d.chunk.js.LICENSE.txt": "/static/js/2.3f14d20d.chunk.js.LICENSE.txt",
+    "static/media/after-work-liat-berdugo.e0029001.jpg": "/static/media/after-work-liat-berdugo.e0029001.jpg",
+    "static/media/agua-giphy.05fc6cc7.gif": "/static/media/agua-giphy.05fc6cc7.gif",
+    "static/media/before-the-nation-went-bankrupt-nathtaniel-sullivan.64884490.jpg": "/static/media/before-the-nation-went-bankrupt-nathtaniel-sullivan.64884490.jpg",
+    "static/media/clench-my-fists-sarah-trad.65b51db5.jpg": "/static/media/clench-my-fists-sarah-trad.65b51db5.jpg",
+    "static/media/corporate-responsibility-pledge-allison-tanenhaus.00341e03.jpg": "/static/media/corporate-responsibility-pledge-allison-tanenhaus.00341e03.jpg",
+    "static/media/frequenSee-allison-tanenhaus.5e48817b.jpg": "/static/media/frequenSee-allison-tanenhaus.5e48817b.jpg",
+    "static/media/invalid-jun-yuan-hong.ee27de64.jpg": "/static/media/invalid-jun-yuan-hong.ee27de64.jpg",
+    "static/media/manifesto-art-downgrade-ruiqi-zhang.3952815c.jpg": "/static/media/manifesto-art-downgrade-ruiqi-zhang.3952815c.jpg",
+    "static/media/my-name-is-sami-daniela-lucato.ee865468.jpg": "/static/media/my-name-is-sami-daniela-lucato.ee865468.jpg",
+    "static/media/OjoDeAguaFilmFestival2021.scss": "/static/media/neuemachina.6c408aee.otf",
+    "static/media/objects-and-cells-3-caspar-gelmini.54cfcaad.jpg": "/static/media/objects-and-cells-3-caspar-gelmini.54cfcaad.jpg",
+    "static/media/renegade-gabrielle-lee.7e80651b.jpg": "/static/media/renegade-gabrielle-lee.7e80651b.jpg",
+    "static/media/talamanca-davide-marino.22d308a7.jpg": "/static/media/talamanca-davide-marino.22d308a7.jpg",
+    "static/media/the-end-of-things-fair-brane.1d1f8416.jpg": "/static/media/the-end-of-things-fair-brane.1d1f8416.jpg",
+    "static/media/the-story-of-emoticon-jarry-huang.0ebe7fc4.jpg": "/static/media/the-story-of-emoticon-jarry-huang.0ebe7fc4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc58d886.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.3f14d20d.chunk.js",
+    "static/css/main.58f807d1.chunk.css",
+    "static/js/main.2878ccae.chunk.js"
+  ]
+}
